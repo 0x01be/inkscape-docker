@@ -1,4 +1,4 @@
-FROM 0x01be/xpra
+FROM 0x01be/xpra:arm32v6
 
 USER root
 RUN apk add --no-cache --virtual kicad-edge-runtime-dependencies \
